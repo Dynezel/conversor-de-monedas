@@ -1,7 +1,6 @@
 
 ## Acerca del proyecto 🚀
-Te facilita convertir el monto que tienes en una determinada moneda (moneda origen) al monto equivalente en otra(s) monedas (monedas destino), y puedes convertir hasta 6 monedas distintas.
- <h1 align="center">  (: ⚙️ :) </h1>
+Este programa facilita convertir el monto de una moneda (moneda origen) al monto equivalente en otra(s) monedas (monedas destino), y puedes convertir hasta 6 monedas distintas.
 
 ## Tecnologías usadas ⌨️
 - Java
