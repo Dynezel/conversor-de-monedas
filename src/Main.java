@@ -87,6 +87,6 @@ public class Main {
                     seguirEjecutando = false;
             }
         }
-        System.out.println("**Fin Del Programa**");
+        System.out.println("    **Fin Del Programa**");
     }
 }

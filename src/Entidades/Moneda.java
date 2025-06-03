@@ -1,12 +1,10 @@
 package Entidades;
 
 public class Moneda {
-    private String monedaBase;
-    private String monedaObjetivo;
-    private String tasaDeConversion;
-    private String resultado;
-
-
+    private final String monedaBase;
+    private final String monedaObjetivo;
+    private final String tasaDeConversion;
+    private final String resultado;
 
     public Moneda(String monedaBase, String monedaObjetivo, String tasaDeConversion, String resultado) {
         this.monedaBase = monedaBase;
@@ -22,36 +20,19 @@ public class Moneda {
         this.resultado = monedaDTO.conversion_result();
     }
 
-
     public String getMonedaBase() {
         return monedaBase;
-    }
-
-    public void setMonedaBase(String monedaBase) {
-        this.monedaBase = monedaBase;
     }
 
     public String getMonedaObjetivo() {
         return monedaObjetivo;
     }
 
-    public void setMonedaObjetivo(String monedaObjetivo) {
-        this.monedaObjetivo = monedaObjetivo;
-    }
-
     public String getTasaDeConversion() {
         return tasaDeConversion;
     }
 
-    public void setTasaDeConversion(String tasaDeConversion) {
-        this.tasaDeConversion = tasaDeConversion;
-    }
-
     public String getResultado() {
         return resultado;
-    }
-
-    public void setResultado(String resultado) {
-        this.resultado = resultado;
     }
 }
